@@ -1,0 +1,11 @@
+D:\Project\ekingstar\外事管理系统\SJTU.WCF\WCF.Web.Contracts\bin\Release\WCF.Web.Contracts.dll
+D:\Project\ekingstar\外事管理系统\SJTU.WCF\WCF.Web.Contracts\bin\Release\WCF.Web.Contracts.pdb
+D:\Project\ekingstar\外事管理系统\SJTU.WCF\WCF.Web.Contracts\bin\Release\log4net.dll
+D:\Project\ekingstar\外事管理系统\SJTU.WCF\WCF.Web.Contracts\obj\Release\WCF.Web.Contracts.csprojResolveAssemblyReference.cache
+D:\Project\ekingstar\外事管理系统\SJTU.WCF\WCF.Web.Contracts\obj\Release\WCF.Web.Contracts.dll
+D:\Project\ekingstar\外事管理系统\SJTU.WCF\WCF.Web.Contracts\obj\Release\WCF.Web.Contracts.pdb
+D:\Project\ekingstar\外事管理系统\SJTU.WCF\WCF.Web.Contracts\bin\Release\WCF.Model.dll
+D:\Project\ekingstar\外事管理系统\SJTU.WCF\WCF.Web.Contracts\bin\Release\NHibernate.Mapping.Attributes.dll
+D:\Project\ekingstar\外事管理系统\SJTU.WCF\WCF.Web.Contracts\bin\Release\WCF.Model.pdb
+D:\Project\ekingstar\外事管理系统\SJTU.WCF\WCF.Web.Contracts\bin\Release\WCF.Web.Entities.dll
+D:\Project\ekingstar\外事管理系统\SJTU.WCF\WCF.Web.Contracts\bin\Release\WCF.Web.Entities.pdb

@@ -1,0 +1,6 @@
+D:\Project\ekingstar\外事管理系统\SJTU.WCF\WCF.Model\bin\Release\WCF.Model.dll
+D:\Project\ekingstar\外事管理系统\SJTU.WCF\WCF.Model\bin\Release\WCF.Model.pdb
+D:\Project\ekingstar\外事管理系统\SJTU.WCF\WCF.Model\bin\Release\NHibernate.Mapping.Attributes.dll
+D:\Project\ekingstar\外事管理系统\SJTU.WCF\WCF.Model\obj\Release\WCF.Model.csprojResolveAssemblyReference.cache
+D:\Project\ekingstar\外事管理系统\SJTU.WCF\WCF.Model\obj\Release\WCF.Model.dll
+D:\Project\ekingstar\外事管理系统\SJTU.WCF\WCF.Model\obj\Release\WCF.Model.pdb

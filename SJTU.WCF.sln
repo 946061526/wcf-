@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJTU.WCF", "SJTU.WCF\SJTU.WCF.csproj", "{5721FA1B-2765-4B3A-9C1C-EA954317E0A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Model", "WCF.Model\WCF.Model.csproj", "{DE2879E8-48BB-489E-9BA6-C7831DDF3A32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Web.Contracts", "WCF.Web.Contracts\WCF.Web.Contracts.csproj", "{1AAC630A-3812-46A3-9B0F-3E69D57F3F45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5721FA1B-2765-4B3A-9C1C-EA954317E0A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5721FA1B-2765-4B3A-9C1C-EA954317E0A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5721FA1B-2765-4B3A-9C1C-EA954317E0A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5721FA1B-2765-4B3A-9C1C-EA954317E0A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE2879E8-48BB-489E-9BA6-C7831DDF3A32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE2879E8-48BB-489E-9BA6-C7831DDF3A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE2879E8-48BB-489E-9BA6-C7831DDF3A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE2879E8-48BB-489E-9BA6-C7831DDF3A32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AAC630A-3812-46A3-9B0F-3E69D57F3F45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AAC630A-3812-46A3-9B0F-3E69D57F3F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AAC630A-3812-46A3-9B0F-3E69D57F3F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AAC630A-3812-46A3-9B0F-3E69D57F3F45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

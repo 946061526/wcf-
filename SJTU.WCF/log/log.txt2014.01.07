@@ -1,0 +1,34 @@
+2014-01-07 18:12:54,147 [21] INFO  NHibernate.Cfg.Environment [(null)] <(null)> - NHibernate 3.3.1.4000 (3.3.3.GA)
+2014-01-07 18:12:54,159 [21] INFO  NHibernate.Cfg.Environment [(null)] <(null)> - hibernate-configuration section not found in application configuration file
+2014-01-07 18:12:54,159 [21] INFO  NHibernate.Cfg.Environment [(null)] <(null)> - Bytecode provider name : lcg
+2014-01-07 18:12:54,160 [21] INFO  NHibernate.Cfg.Environment [(null)] <(null)> - Using reflection optimizer
+2014-01-07 18:12:54,382 [21] INFO  NHibernate.Dialect.Dialect [(null)] <(null)> - Using dialect: NHibernate.Dialect.MySQL5Dialect
+2014-01-07 18:12:54,422 [21] INFO  NHibernate.Cfg.XmlHbmBinding.Binder [(null)] <(null)> - Mapping class: WCF.Model.book -> book
+2014-01-07 18:12:54,468 [21] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - checking mappings queue
+2014-01-07 18:12:54,468 [21] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing one-to-many association mappings
+2014-01-07 18:12:54,468 [21] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing one-to-one association property references
+2014-01-07 18:12:54,468 [21] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing foreign key constraints
+2014-01-07 18:12:54,470 [21] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing filters (second pass)
+2014-01-07 18:12:54,481 [21] INFO  NHibernate.Dialect.Dialect [(null)] <(null)> - Using dialect: NHibernate.Dialect.MySQL5Dialect
+2014-01-07 18:12:54,485 [21] INFO  NHibernate.Dialect.Dialect [(null)] <(null)> - Using dialect: NHibernate.Dialect.MySQL5Dialect
+2014-01-07 18:12:54,519 [21] INFO  NHibernate.Exceptions.SQLExceptionConverterFactory [(null)] <(null)> - Using dialect defined converter
+2014-01-07 18:12:54,519 [21] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Generate SQL with comments: disabled
+2014-01-07 18:12:54,520 [21] INFO  NHibernate.Connection.ConnectionProvider [(null)] <(null)> - Configuring ConnectionProvider
+2014-01-07 18:12:54,523 [21] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Transaction factory: NHibernate.Transaction.AdoNetWithDistributedTransactionFactory
+2014-01-07 18:12:54,523 [21] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Optimize cache for minimal puts: False
+2014-01-07 18:12:54,523 [21] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Connection release mode: auto
+2014-01-07 18:12:54,523 [21] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Default batch fetch size: 1
+2014-01-07 18:12:54,523 [21] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - echoing all SQL to stdout
+2014-01-07 18:12:54,523 [21] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Statistics: disabled
+2014-01-07 18:12:54,523 [21] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Deleted entity synthetic identifier rollback: disabled
+2014-01-07 18:12:54,523 [21] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2014-01-07 18:12:54,524 [21] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Query language substitutions: {}
+2014-01-07 18:12:54,525 [21] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2014-01-07 18:12:54,525 [21] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Order SQL inserts for batching: disabled
+2014-01-07 18:12:54,526 [21] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2014-01-07 18:12:54,527 [21] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Default entity-mode: Poco
+2014-01-07 18:12:54,527 [21] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Named query checking : enabled
+2014-01-07 18:12:54,542 [21] INFO  NHibernate.Impl.SessionFactoryImpl [(null)] <(null)> - building session factory
+2014-01-07 18:12:54,696 [21] INFO  NHibernate.Impl.SessionFactoryObjectFactory [(null)] <(null)> - no name configured
+2014-01-07 18:12:55,043 [21] INFO  NHibernate.Hql.Ast.ANTLR.Tree.FromElement [(null)] <(null)> - handling property dereference [WCF.Model.book (x) -> isbn1 (Class)]
+2014-01-07 18:12:55,153 [21] INFO  NHibernate.Loader.Loader [(null)] <(null)> - select book0_.isbn1 as isbn1_0_, book0_.isbn2 as isbn2_0_, book0_.title as title0_, book0_.pages as pages0_, book0_.author as author0_, book0_.translator as translator0_, book0_.price as price0_, book0_.publishdate as publishd8_0_, book0_.publisher as publisher0_, book0_.summary as summary0_, book0_.binding as binding0_, book0_.imageurl as imageurl0_, book0_.addtime as addtime0_ from book book0_ where book0_.isbn1<>?p0

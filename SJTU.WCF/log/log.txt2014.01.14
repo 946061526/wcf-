@@ -1,0 +1,36 @@
+2014-01-14 16:14:49,436 [16] INFO  NHibernate.Cfg.Environment [(null)] <(null)> - NHibernate 3.3.1.4000 (3.3.3.GA)
+2014-01-14 16:14:49,451 [16] INFO  NHibernate.Cfg.Environment [(null)] <(null)> - hibernate-configuration section not found in application configuration file
+2014-01-14 16:14:49,452 [16] INFO  NHibernate.Cfg.Environment [(null)] <(null)> - Bytecode provider name : lcg
+2014-01-14 16:14:49,453 [16] INFO  NHibernate.Cfg.Environment [(null)] <(null)> - Using reflection optimizer
+2014-01-14 16:14:49,738 [16] INFO  NHibernate.Dialect.Dialect [(null)] <(null)> - Using dialect: NHibernate.Dialect.MySQL5Dialect
+2014-01-14 16:14:49,786 [16] INFO  NHibernate.Cfg.XmlHbmBinding.Binder [(null)] <(null)> - Mapping class: WCF.Model.book -> book
+2014-01-14 16:14:49,851 [16] INFO  NHibernate.Cfg.XmlHbmBinding.Binder [(null)] <(null)> - Mapping class: WCF.Model.checkdetail -> checkdetail
+2014-01-14 16:14:49,852 [16] INFO  NHibernate.Cfg.XmlHbmBinding.Binder [(null)] <(null)> - Mapping class: WCF.Model.financial -> financial
+2014-01-14 16:14:49,880 [16] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - checking mappings queue
+2014-01-14 16:14:49,880 [16] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing one-to-many association mappings
+2014-01-14 16:14:49,883 [16] INFO  NHibernate.Cfg.XmlHbmBinding.Binder [(null)] <(null)> - mapping collection: WCF.Model.financial.checkdetailList -> checkdetail
+2014-01-14 16:14:49,893 [16] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing one-to-one association property references
+2014-01-14 16:14:49,894 [16] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing foreign key constraints
+2014-01-14 16:14:49,900 [16] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing filters (second pass)
+2014-01-14 16:14:49,927 [16] INFO  NHibernate.Dialect.Dialect [(null)] <(null)> - Using dialect: NHibernate.Dialect.MySQL5Dialect
+2014-01-14 16:14:49,931 [16] INFO  NHibernate.Dialect.Dialect [(null)] <(null)> - Using dialect: NHibernate.Dialect.MySQL5Dialect
+2014-01-14 16:14:49,969 [16] INFO  NHibernate.Exceptions.SQLExceptionConverterFactory [(null)] <(null)> - Using dialect defined converter
+2014-01-14 16:14:49,969 [16] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Generate SQL with comments: disabled
+2014-01-14 16:14:49,970 [16] INFO  NHibernate.Connection.ConnectionProvider [(null)] <(null)> - Configuring ConnectionProvider
+2014-01-14 16:14:49,973 [16] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Transaction factory: NHibernate.Transaction.AdoNetWithDistributedTransactionFactory
+2014-01-14 16:14:49,973 [16] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Optimize cache for minimal puts: False
+2014-01-14 16:14:49,973 [16] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Connection release mode: auto
+2014-01-14 16:14:49,973 [16] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Default batch fetch size: 1
+2014-01-14 16:14:49,973 [16] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - echoing all SQL to stdout
+2014-01-14 16:14:49,973 [16] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Statistics: disabled
+2014-01-14 16:14:49,973 [16] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Deleted entity synthetic identifier rollback: disabled
+2014-01-14 16:14:49,974 [16] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2014-01-14 16:14:49,974 [16] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Query language substitutions: {}
+2014-01-14 16:14:49,976 [16] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2014-01-14 16:14:49,976 [16] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Order SQL inserts for batching: disabled
+2014-01-14 16:14:49,977 [16] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2014-01-14 16:14:49,978 [16] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Default entity-mode: Poco
+2014-01-14 16:14:49,978 [16] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Named query checking : enabled
+2014-01-14 16:14:50,016 [16] INFO  NHibernate.Impl.SessionFactoryImpl [(null)] <(null)> - building session factory
+2014-01-14 16:14:50,241 [16] INFO  NHibernate.Impl.SessionFactoryObjectFactory [(null)] <(null)> - no name configured
+2014-01-14 16:14:50,308 [16] INFO  NHibernate.Loader.Loader [(null)] <(null)> -  SELECT k.* FROM(  SELECT q.checktype,q.income,YEAR(t) as y,MONTH(t) as m  FROM (  SELECT STR_TO_DATE(f.cousmetime,'%Y-%m-%d %H:%i:%s') AS t,f.income,f.checktype  FROM financial AS f  WHERE moneytype = 2 ) AS q  ) as k  Where 1=1  And k.y=2014 

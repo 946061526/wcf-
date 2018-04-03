@@ -1,0 +1,37 @@
+2014-01-24 14:08:03,108 [5] INFO  NHibernate.Cfg.Environment [(null)] <(null)> - NHibernate 3.3.1.4000 (3.3.3.GA)
+2014-01-24 14:08:03,122 [5] INFO  NHibernate.Cfg.Environment [(null)] <(null)> - hibernate-configuration section not found in application configuration file
+2014-01-24 14:08:03,122 [5] INFO  NHibernate.Cfg.Environment [(null)] <(null)> - Bytecode provider name : lcg
+2014-01-24 14:08:03,123 [5] INFO  NHibernate.Cfg.Environment [(null)] <(null)> - Using reflection optimizer
+2014-01-24 14:08:03,377 [5] INFO  NHibernate.Dialect.Dialect [(null)] <(null)> - Using dialect: NHibernate.Dialect.MySQL5Dialect
+2014-01-24 14:08:03,417 [5] INFO  NHibernate.Cfg.XmlHbmBinding.Binder [(null)] <(null)> - Mapping class: WCF.Model.book -> book
+2014-01-24 14:08:03,451 [5] INFO  NHibernate.Cfg.XmlHbmBinding.Binder [(null)] <(null)> - Mapping class: WCF.Model.checkdetail -> checkdetail
+2014-01-24 14:08:03,452 [5] INFO  NHibernate.Cfg.XmlHbmBinding.Binder [(null)] <(null)> - Mapping class: WCF.Model.financial -> financial
+2014-01-24 14:08:03,465 [5] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - checking mappings queue
+2014-01-24 14:08:03,465 [5] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing one-to-many association mappings
+2014-01-24 14:08:03,467 [5] INFO  NHibernate.Cfg.XmlHbmBinding.Binder [(null)] <(null)> - mapping collection: WCF.Model.financial.checkdetailList -> checkdetail
+2014-01-24 14:08:03,471 [5] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing one-to-one association property references
+2014-01-24 14:08:03,471 [5] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing foreign key constraints
+2014-01-24 14:08:03,473 [5] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing filters (second pass)
+2014-01-24 14:08:03,485 [5] INFO  NHibernate.Dialect.Dialect [(null)] <(null)> - Using dialect: NHibernate.Dialect.MySQL5Dialect
+2014-01-24 14:08:03,488 [5] INFO  NHibernate.Dialect.Dialect [(null)] <(null)> - Using dialect: NHibernate.Dialect.MySQL5Dialect
+2014-01-24 14:08:03,523 [5] INFO  NHibernate.Exceptions.SQLExceptionConverterFactory [(null)] <(null)> - Using dialect defined converter
+2014-01-24 14:08:03,523 [5] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Generate SQL with comments: disabled
+2014-01-24 14:08:03,524 [5] INFO  NHibernate.Connection.ConnectionProvider [(null)] <(null)> - Configuring ConnectionProvider
+2014-01-24 14:08:03,530 [5] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Transaction factory: NHibernate.Transaction.AdoNetWithDistributedTransactionFactory
+2014-01-24 14:08:03,530 [5] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Optimize cache for minimal puts: False
+2014-01-24 14:08:03,530 [5] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Connection release mode: auto
+2014-01-24 14:08:03,531 [5] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Default batch fetch size: 1
+2014-01-24 14:08:03,531 [5] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - echoing all SQL to stdout
+2014-01-24 14:08:03,531 [5] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Statistics: disabled
+2014-01-24 14:08:03,531 [5] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Deleted entity synthetic identifier rollback: disabled
+2014-01-24 14:08:03,531 [5] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2014-01-24 14:08:03,532 [5] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Query language substitutions: {}
+2014-01-24 14:08:03,532 [5] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2014-01-24 14:08:03,533 [5] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Order SQL inserts for batching: disabled
+2014-01-24 14:08:03,533 [5] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2014-01-24 14:08:03,534 [5] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Default entity-mode: Poco
+2014-01-24 14:08:03,534 [5] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Named query checking : enabled
+2014-01-24 14:08:03,560 [5] INFO  NHibernate.Impl.SessionFactoryImpl [(null)] <(null)> - building session factory
+2014-01-24 14:08:03,716 [5] INFO  NHibernate.Impl.SessionFactoryObjectFactory [(null)] <(null)> - no name configured
+2014-01-24 14:08:04,117 [5] INFO  NHibernate.Hql.Ast.ANTLR.Tree.FromElement [(null)] <(null)> - handling property dereference [WCF.Model.book (x) -> isbn1 (Class)]
+2014-01-24 14:08:04,213 [5] INFO  NHibernate.Loader.Loader [(null)] <(null)> - select book0_.id as id0_, book0_.isbn1 as isbn2_0_, book0_.isbn2 as isbn3_0_, book0_.title as title0_, book0_.pages as pages0_, book0_.author as author0_, book0_.translator as translator0_, book0_.price as price0_, book0_.publishdate as publishd9_0_, book0_.publisher as publisher0_, book0_.summary as summary0_, book0_.binding as binding0_, book0_.imageurl as imageurl0_, book0_.addtime as addtime0_ from book book0_ where book0_.isbn1=?p0

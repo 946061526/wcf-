@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>调试接口</title>
+    <meta charset="utf-8" />
+    <script src="jquery.min.js"></script>
+    <script>
+        $(function () {
+            $("#GetUsers").on('click', function () {
+                GetUsers();
+            });
+
+            $("#CreateUser").on('click', function () {
+                CreateUser();
+            });
+
+            function CreateUser() {
+                var jsonMsg = { "Id": "5", "UserName": "胡二", "Age": 24 };
+                var message = JSON.stringify(jsonMsg)
+                $.ajax({
+                    type: "POST",
+                    url: "/User/",
+                    contentType: "application/json",
+                    data: message,
+                    dataType: "json",
+                    processData: false,
+                    success: function (json) { console.log(json); },
+                    error: function (error) {
+                        alert("调用出错" + error.responseText);
+                    }
+                });
+            }
+
+            function GetUsers() {
+                $.ajax({
+                    type: "Get",
+                    url: "/User/",
+                    contentType: "application/json",
+                    dataType: "json",
+                    success: function (json) { console.log(json); },
+                    error: function (error) {
+                        alert("调用出错" + error.responseText);
+                    }
+                });
+            }
+        });
+
+        
+
+    </script>
+</head>
+<body>
+    <div>
+        <button id="CreateUser">测试创建用户</button>
+    </div>
+    <div>
+        <button id="GetUsers">获取用户列表</button>
+    </div>
+</body>
+</html>

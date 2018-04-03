@@ -1,0 +1,49 @@
+2014-01-09 22:47:10,834 [27] INFO  NHibernate.Cfg.Environment [(null)] <(null)> - NHibernate 3.3.1.4000 (3.3.3.GA)
+2014-01-09 22:47:10,845 [27] INFO  NHibernate.Cfg.Environment [(null)] <(null)> - hibernate-configuration section not found in application configuration file
+2014-01-09 22:47:10,846 [27] INFO  NHibernate.Cfg.Environment [(null)] <(null)> - Bytecode provider name : lcg
+2014-01-09 22:47:10,847 [27] INFO  NHibernate.Cfg.Environment [(null)] <(null)> - Using reflection optimizer
+2014-01-09 22:47:11,134 [27] INFO  NHibernate.Dialect.Dialect [(null)] <(null)> - Using dialect: NHibernate.Dialect.MySQL5Dialect
+2014-01-09 22:47:11,177 [27] INFO  NHibernate.Cfg.XmlHbmBinding.Binder [(null)] <(null)> - Mapping class: WCF.Model.book -> book
+2014-01-09 22:47:11,224 [27] INFO  NHibernate.Cfg.XmlHbmBinding.Binder [(null)] <(null)> - Mapping class: WCF.Model.checkdetail -> checkdetail
+2014-01-09 22:47:11,224 [27] INFO  NHibernate.Cfg.XmlHbmBinding.Binder [(null)] <(null)> - Mapping class: WCF.Model.financial -> financial
+2014-01-09 22:47:11,238 [27] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - checking mappings queue
+2014-01-09 22:47:11,238 [27] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing one-to-many association mappings
+2014-01-09 22:47:11,240 [27] INFO  NHibernate.Cfg.XmlHbmBinding.Binder [(null)] <(null)> - mapping collection: WCF.Model.financial.checkdetailList -> checkdetail
+2014-01-09 22:47:11,245 [27] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing one-to-one association property references
+2014-01-09 22:47:11,245 [27] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing foreign key constraints
+2014-01-09 22:47:11,247 [27] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing filters (second pass)
+2014-01-09 22:47:11,260 [27] INFO  NHibernate.Dialect.Dialect [(null)] <(null)> - Using dialect: NHibernate.Dialect.MySQL5Dialect
+2014-01-09 22:47:11,265 [27] INFO  NHibernate.Dialect.Dialect [(null)] <(null)> - Using dialect: NHibernate.Dialect.MySQL5Dialect
+2014-01-09 22:47:11,298 [27] INFO  NHibernate.Exceptions.SQLExceptionConverterFactory [(null)] <(null)> - Using dialect defined converter
+2014-01-09 22:47:11,298 [27] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Generate SQL with comments: disabled
+2014-01-09 22:47:11,299 [27] INFO  NHibernate.Connection.ConnectionProvider [(null)] <(null)> - Configuring ConnectionProvider
+2014-01-09 22:47:11,302 [27] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Transaction factory: NHibernate.Transaction.AdoNetWithDistributedTransactionFactory
+2014-01-09 22:47:11,302 [27] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Optimize cache for minimal puts: False
+2014-01-09 22:47:11,303 [27] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Connection release mode: auto
+2014-01-09 22:47:11,303 [27] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Default batch fetch size: 1
+2014-01-09 22:47:11,303 [27] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - echoing all SQL to stdout
+2014-01-09 22:47:11,303 [27] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Statistics: disabled
+2014-01-09 22:47:11,303 [27] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Deleted entity synthetic identifier rollback: disabled
+2014-01-09 22:47:11,303 [27] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2014-01-09 22:47:11,304 [27] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Query language substitutions: {}
+2014-01-09 22:47:11,305 [27] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2014-01-09 22:47:11,305 [27] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Order SQL inserts for batching: disabled
+2014-01-09 22:47:11,305 [27] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2014-01-09 22:47:11,306 [27] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Default entity-mode: Poco
+2014-01-09 22:47:11,306 [27] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Named query checking : enabled
+2014-01-09 22:47:11,335 [27] INFO  NHibernate.Impl.SessionFactoryImpl [(null)] <(null)> - building session factory
+2014-01-09 22:47:11,519 [27] INFO  NHibernate.Impl.SessionFactoryObjectFactory [(null)] <(null)> - no name configured
+2014-01-09 22:47:11,648 [27] INFO  NHibernate.Engine.Cascade [(null)] <(null)> - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: WCF.Model.financial
+2014-01-09 22:47:11,648 [27] INFO  NHibernate.Engine.Cascade [(null)] <(null)> - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: WCF.Model.financial
+2014-01-09 22:47:11,687 [27] INFO  NHibernate.Engine.Cascade [(null)] <(null)> - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: WCF.Model.financial
+2014-01-09 22:47:11,688 [27] INFO  NHibernate.Engine.Cascade [(null)] <(null)> - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: WCF.Model.financial.checkdetailList
+2014-01-09 22:47:11,689 [27] INFO  NHibernate.Engine.Cascade [(null)] <(null)> - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: WCF.Model.financial.checkdetailList
+2014-01-09 22:47:11,689 [27] INFO  NHibernate.Engine.Cascade [(null)] <(null)> - deleting orphans for collection: WCF.Model.financial.checkdetailList
+2014-01-09 22:47:11,691 [27] INFO  NHibernate.Engine.Cascade [(null)] <(null)> - done deleting orphans for collection: WCF.Model.financial.checkdetailList
+2014-01-09 22:47:11,691 [27] INFO  NHibernate.Engine.Cascade [(null)] <(null)> - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: WCF.Model.financial
+2014-01-09 22:47:11,695 [27] INFO  NHibernate.Engine.Cascade [(null)] <(null)> - processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: WCF.Model.financial
+2014-01-09 22:47:11,696 [27] INFO  NHibernate.Engine.Cascade [(null)] <(null)> - cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: WCF.Model.financial.checkdetailList
+2014-01-09 22:47:11,696 [27] INFO  NHibernate.Engine.Cascade [(null)] <(null)> - done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: WCF.Model.financial.checkdetailList
+2014-01-09 22:47:11,696 [27] INFO  NHibernate.Engine.Cascade [(null)] <(null)> - deleting orphans for collection: WCF.Model.financial.checkdetailList
+2014-01-09 22:47:11,696 [27] INFO  NHibernate.Engine.Cascade [(null)] <(null)> - done deleting orphans for collection: WCF.Model.financial.checkdetailList
+2014-01-09 22:47:11,696 [27] INFO  NHibernate.Engine.Cascade [(null)] <(null)> - done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: WCF.Model.financial
